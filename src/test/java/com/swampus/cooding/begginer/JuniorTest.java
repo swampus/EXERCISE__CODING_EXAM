@@ -22,10 +22,10 @@ public class JuniorTest {
     }
 
     @Test
-    public void addElementToEnd() {
-        String arr[] = {"A", "B"};
+    public void addElementToLastPosition() {
+        String[] arr = new String[]{"A", "B", ""};
         junior.setArr(arr);
-        junior.addElementToEnd("C");
+        junior.addElementToLastPosition("C");
         assertEquals("C", junior.getArr()[2]);
     }
 

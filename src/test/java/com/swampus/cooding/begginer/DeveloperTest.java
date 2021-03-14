@@ -15,7 +15,7 @@ public class DeveloperTest {
 
     @Test
     public void modifyArray() {
-        String[] arr = {"abC, def, 010, gGg"};
+        String[] arr = {"abC", "def", "010","gGg"};
         String[] res = developer.modifyArray(arr);
         assertEquals("ABC", res[0]);
         assertEquals("DEF", res[1]);
@@ -39,14 +39,15 @@ public class DeveloperTest {
 
     @Test
     public void getFirstHalfOfArray() {
-        String[] arr = {"abC, def, 010, gGg, ccc"};
+        String[] arr = {"abC", "def", "010", "gGg", "ccc"};
         String[] res = developer.getFirstHalfOfArray(arr);
+
         assertEquals("abC", res[0]);
         assertEquals("def", res[1]);
         assertEquals("010", res[2]);
         assertEquals(3, res.length);
 
-        arr = new String[]{"abC, def"};
+        arr = new String[]{"abC", "def"};
         res = developer.getFirstHalfOfArray(arr);
         assertEquals("abC", res[0]);
         assertEquals(1, res.length);

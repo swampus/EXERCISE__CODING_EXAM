@@ -10,7 +10,7 @@ public class Junior {
      * return string "Hello Exam"
      */
     public String getThePhrase() {
-        return null;
+        return "";
     }
 
     /**
@@ -25,10 +25,10 @@ public class Junior {
     /**
      * Task3
      * you have defined field "arr" it is an String array
-     * add one element to it to the end. Element you need to add you have as parameter
+     * add one element to it to last position. Element you need to add you have as parameter
      * it is called String additionalElement
      */
-    public void addElementToEnd(String additionalElement) {
+    public void addElementToLastPosition(String additionalElement) {
 
     }
 
