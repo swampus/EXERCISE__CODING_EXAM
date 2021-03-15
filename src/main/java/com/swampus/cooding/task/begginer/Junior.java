@@ -1,4 +1,4 @@
-package com.swampus.cooding.begginer;
+package com.swampus.cooding.task.begginer;
 
 public class Junior {
 

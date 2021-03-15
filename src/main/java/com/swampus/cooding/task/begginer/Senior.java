@@ -1,4 +1,4 @@
-package com.swampus.cooding.begginer;
+package com.swampus.cooding.task.begginer;
 
 import java.util.List;
 import java.util.Map;

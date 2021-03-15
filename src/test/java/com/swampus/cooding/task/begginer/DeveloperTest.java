@@ -1,5 +1,6 @@
-package com.swampus.cooding.begginer;
+package com.swampus.cooding.task.begginer;
 
+import com.swampus.cooding.task.begginer.Developer;
 import org.junit.Test;
 
 import java.util.HashMap;
