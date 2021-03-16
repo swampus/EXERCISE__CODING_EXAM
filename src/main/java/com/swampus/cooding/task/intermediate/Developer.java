@@ -16,10 +16,10 @@ public class Developer {
      * you are given incoming param dateString that are string and contains a date in String format
      * like 2016-07-14 09:00:02  || or 2022-09-10 01:00:00
      * you need to create java.util.Date object using that string date.
-     * (Date value should be like in string, days, seconds e.t.c)
+     * return timemileseconds of that date (milliseconds from 1970 year until that date look method for it)
      */
-    public String convertStringToDate(String dateString) {
-        return null;
+    public Long convertStringToDate(String dateString) {
+        return 0L;
     }
 
     /**
@@ -27,7 +27,7 @@ public class Developer {
      * String filePath parameter is provided. You need to access file with with path = filePath (file located at filePath)
      * read all content from that file and return as String
      */
-    public String consumeFile(String filePath){
+    public String consumeFile(String filePath) {
         return null;
     }
 
@@ -38,7 +38,7 @@ public class Developer {
      * return set containing 732 unique BlueSapphire and unique 116 Ruby
      * (each Gemstone of same type should contain unique id: String)
      */
-    public Set<Gemstone> createSetWithGemstones(){
+    public Set<Gemstone> createSetWithGemstones() {
         return null;
     }
 
@@ -49,7 +49,7 @@ public class Developer {
      * same stones it are a stones with same Class (type) and id   (id+type)
      * you need filter out same stones and return. ( From provided list are removed all same stones )
      */
-    public List<Gemstone> filterOutSameStones(List<Gemstone> agregatedOffersFromProviders){
+    public List<Gemstone> filterOutSameStones(List<Gemstone> agregatedOffersFromProviders) {
         return null;
     }
 
@@ -64,7 +64,7 @@ public class Developer {
      * if white and black are equals return null (value null)
      * wrap result (that method return) with Optional (option like above return value)
      */
-    public Optional<ChessFigureSide> evaluateChessBoard(Map<String, Figure> chessBoard){
+    public Optional<ChessFigureSide> evaluateChessBoard(Map<String, Figure> chessBoard) {
         return null;
     }
 }
