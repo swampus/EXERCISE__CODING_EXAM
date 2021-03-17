@@ -45,10 +45,10 @@ public class Junior {
     /**
      * Task5
      * you have defined field "arr" it is an String array
-     * return the count of elements inside it (how many elements is inside)
+     * make all elements inside = "C"
      */
-    public int getElementCountInFieldArray() {
-        return 0;
+    public void makeAllElementsInsideC() {
+
     }
 
 

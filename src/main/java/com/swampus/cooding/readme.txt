@@ -1,4 +1,5 @@
 - you allowed only to modify code inside class methods. (unless described another)
 - execute tests to check
 - do not modify tests. Or just write code to complete tests you need implement algorithm to solve the problem!
+-> begginer -> lowintermediate -> intermediate -> advanced -> fluent
 - Junior -> Developer -> Senior -> Architect -> ITDevelopmentHead

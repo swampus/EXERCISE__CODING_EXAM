@@ -1,23 +1,26 @@
 package com.swampus.cooding.task.begginer;
 
-public class Architect {
+import com.swampus.cooding.misc.chess.ChessFigureSide;
 
+public class Architect {
 
     /**
      * Task1
-     * https://en.wikipedia.org/wiki/Determinant
+     * calculate sum of all numbers inside 2D array numbers
+     * and return
      */
-    public long calculateDeterminant(long[][] matrix){
+    public int calculateNumbersInside2DArray(int[][] numbers) {
         return 0;
     }
 
     /**
      * Task2
-     * executing tests and providing answers try to understand what need to do.
-     * the programing solvation should be short (no more then 8 lines = commands)
+     * you are given String string
+     * you need create enum ChessFigureSide using that string (use enum method to create from string ) and return
      */
-    public long doSomething(int n){
-        return 0;
+    public ChessFigureSide multyPlayTable(String string) {
+        return null;
     }
+
 
 }

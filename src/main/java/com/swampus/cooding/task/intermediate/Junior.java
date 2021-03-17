@@ -21,7 +21,7 @@ public class Junior {
 
     /**
      * Task2
-     * you have incomming param Class com.swampus.cooding.misc.DConnectionManager instance
+     * you have incoming param Class com.swampus.cooding.misc.DConnectionManager instance
      * call method connect() from that class with no params; (method of instance)
      */
     public void callConnect(DConnectionManager dConnectionManager) {

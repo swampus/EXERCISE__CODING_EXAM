@@ -56,10 +56,10 @@ public class Developer {
 
     /**
      * Task5
-     * incomming param chessBoard - is a chess board a Map with key - chess board Field and value - Figure
-     * Figure have method to define side (Black or White) it is enum
-     * Figure have method to get its value
-     * task is to evaluate what side have advantage (more points, that are sum of all figures of that side)
+     * incoming param chessBoard - is a chess board a Map with key - chess board Field and value - Figure
+     * Figure have method to gets its side (Black or White) it is enum
+     * Figure have method to get its value (how it is evaluated in board)
+     * task is to evaluate what side have advantage (more points, that are sum of all figures values of that side)
      * if white Return enum value White if Black return enum value Black (class ChessFigureSide is enum)
      * if white and black are equals return null (value null)
      * wrap result (that method return) with Optional (option like above return value)

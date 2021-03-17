@@ -1,6 +1,5 @@
 package com.swampus.cooding.task.begginer;
 
-import com.swampus.cooding.task.begginer.Senior;
 import org.junit.Test;
 
 import java.util.*;

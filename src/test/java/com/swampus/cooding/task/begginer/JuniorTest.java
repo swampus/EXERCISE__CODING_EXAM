@@ -1,6 +1,5 @@
 package com.swampus.cooding.task.begginer;
 
-import com.swampus.cooding.task.begginer.Junior;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -39,6 +38,12 @@ public class JuniorTest {
     public void getElementCountInFieldArray() {
         String arr[] = {"A", "B", "D", "E"};
         junior.setArr(arr);
-        assertEquals(4, junior.getElementCountInFieldArray());
+        junior.makeAllElementsInsideC();
+        String[] arrR = junior.getArr();
+        assertEquals(4, arr.length);
+        assertEquals("C", arr[0]);
+        assertEquals("C", arr[1]);
+        assertEquals("C", arr[2]);
+        assertEquals("C", arr[3]);
     }
 }

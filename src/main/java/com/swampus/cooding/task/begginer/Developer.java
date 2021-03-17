@@ -39,7 +39,7 @@ public class Developer {
 
     /**
      * Task4
-     * you have 3 incomming params: string1,string2,string3 that are strings
+     * you have 3 incoming params: string1,string2,string3 that are strings
      * you need to return number of longest string. (How many characters are in longest string)
      * Warning string may be null
      * null value have length 0
@@ -51,7 +51,7 @@ public class Developer {
     /**
      * Task5
      * you have defined field "numbers" that is set of Integers
-     * you have incomming param setTwo, that are set of Strings, all Strings inside represents number
+     * you have incoming param setTwo, that are set of Strings, all Strings inside represents number
      * you need to add all numbers from "setTwo" to "numbers" that are not in setTwo
      * note that numbers in setTwo saved as String so you need to convert prob.
      */
