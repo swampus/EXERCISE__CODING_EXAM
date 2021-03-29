@@ -3,9 +3,8 @@ package com.swampus.cooding.task.intermediate;
 import com.swampus.cooding.misc.IConnector;
 import com.swampus.cooding.misc.MarsRover;
 
-/**
- * NOT TESTED
- */
+import java.util.Optional;
+
 public class Architect {
 
     /**

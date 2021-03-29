@@ -6,6 +6,9 @@ import com.swampus.cooding.misc.chess.Figure;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Not tested!!
+ */
 public class Junior {
 
     /**
@@ -34,10 +37,11 @@ public class Junior {
      * Task3
      * /!\ Use StreamApi
      * You have incoming list of the lists with lists strings
-     * add all strings from all lists to single list of strings
+     * add all strings from all lists to single String
+     * List<List<String> - to String
      */
     public List<String> concatAllLists(List<List<List<String>>> lists) {
-        return null;
+      return null;
     }
 
 
@@ -62,3 +66,4 @@ public class Junior {
     }
 
 }
+
