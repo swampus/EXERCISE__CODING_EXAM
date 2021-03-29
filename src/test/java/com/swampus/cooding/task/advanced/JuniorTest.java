@@ -82,19 +82,31 @@ public class JuniorTest {
         lists.add(listSec2);
 
         List<String> res = junior.concatAllLists(lists);
-        assertEquals(2, res.size());
-        assertEquals("0102030A0BLLLCCC", res.get(0));
-        assertEquals("M_1M_21M_22", res.get(1));
+        assertEquals(10, res.size());
+        assertEquals("01", res.get(0));
+        assertEquals("02", res.get(1));
+        assertEquals("03", res.get(2));
+
+        assertEquals("0A", res.get(3));
+        assertEquals("0B", res.get(4));
+
+        assertEquals("LLL", res.get(5));
+        assertEquals("CCC", res.get(6));
+
+        assertEquals("M_1", res.get(7));
+        assertEquals("M_21", res.get(8));
+        assertEquals("M_22", res.get(9));
+
     }
 
     @Test
     public void getAllFileNames() {
-        List<String> list = junior.getAllFileNames("./src/tests/resources/advance");
+        List<String> list = junior.getAllFileNames("./src/test/resources/advance");
         assertEquals(4, list.size());
         assertEquals("ab.txt", list.get(0));
         assertEquals("abbbb.csv", list.get(1));
-        assertEquals("ruru.txt", list.get(2));
-        assertEquals("om.wat", list.get(3));
+        assertEquals("om.wat", list.get(2));
+        assertEquals("ruru.txt", list.get(3));
     }
 
     @Test

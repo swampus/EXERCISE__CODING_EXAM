@@ -37,11 +37,11 @@ public class Junior {
      * Task3
      * /!\ Use StreamApi
      * You have incoming list of the lists with lists strings
-     * add all strings from all lists to single String
-     * List<List<String> - to String
+     * add all strings from all lists to single List<String>
+     * put all strings from all lists to single List
      */
     public List<String> concatAllLists(List<List<List<String>>> lists) {
-      return null;
+        return null;
     }
 
 
