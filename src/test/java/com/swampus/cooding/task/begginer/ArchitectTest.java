@@ -1,9 +1,13 @@
 package com.swampus.cooding.task.begginer;
 
+import com.swampus.cooding.misc.Employee;
 import com.swampus.cooding.misc.chess.ChessFigureSide;
 import org.junit.Test;
 
+import java.util.LinkedList;
+
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class ArchitectTest {
 
@@ -22,5 +26,19 @@ public class ArchitectTest {
     public void multyPlayTable() {
         assertEquals(ChessFigureSide.WHITE, architect.multyPlayTable("WHITE"));
         assertEquals(ChessFigureSide.BLACK, architect.multyPlayTable("BLACK"));
+    }
+
+    @Test
+    public void hashCodeOfEmployee() {
+        Employee employee = new Employee();
+        employee.setName("Name");
+        employee.setTaxCategory("Tax");
+        employee.setPersonalCode("1234");
+        assertEquals(employee.hashCode(), architect.hashCodeOfEmployee(employee));
+    }
+
+    @Test
+    public void listForOperations() {
+        assertTrue(architect.listForOperations() instanceof LinkedList);
     }
 }

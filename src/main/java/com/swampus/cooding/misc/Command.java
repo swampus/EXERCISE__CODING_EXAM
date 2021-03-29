@@ -5,6 +5,11 @@ public class Command extends Thread {
     private String expectedResult;
     private String result = "in progress...";
 
+    public Command(long sleepTime, String expectedResult){
+        this.sleepTime = sleepTime;
+        this.expectedResult = expectedResult;
+    }
+
     public String getResult() {
         return result;
     }

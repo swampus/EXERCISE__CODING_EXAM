@@ -16,7 +16,7 @@ public class Junior {
     /**
      * Task2
      * you have defined field "valueField"
-     * increase its value by 5 and return;
+     * increase its value by 5;
      */
     public void increaseField() {
 
@@ -34,7 +34,7 @@ public class Junior {
 
     /**
      * Task4
-     * you have two incomming int parametrs alfa and betta
+     * you have two incoming int parameters alfa and betta
      * return biggest minus lowest. (from bigger parametr value decrease smaller and return)
      */
     public int findTheDifference(int alfa, int betta) {

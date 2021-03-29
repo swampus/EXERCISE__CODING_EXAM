@@ -35,4 +35,14 @@ public class ArchitectTest {
         assertEquals(34, architect.doSomething(10));
         assertEquals(55, architect.doSomething(11));
     }
+
+    @Test
+    public void getComplexityOfBubbleSortAlgorithm() {
+        assertEquals("O(n*n)", architect.getComplexityOfBubbleSortAlgorithm());
+    }
+
+    @Test
+    public void getComplexityOfAlgorithm() {
+        assertEquals("O(n+n/2)", architect.getComplexityOfAlgorithm());
+    }
 }

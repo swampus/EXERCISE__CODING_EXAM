@@ -20,4 +20,24 @@ public class Architect {
         return 0;
     }
 
+    /**
+     * Task3
+     * return complexity of bubble sort algorithm as string
+     * like 0(n-20), O(n*n*n) = n sqrt e.t.c
+     */
+    public String getComplexityOfBubbleSortAlgorithm() {
+        return null;
+    }
+
+    /**
+     * Task4
+     * return complexity of  algorithm as string
+     * like 0(n-20), O(n*n*n) = n sqrt e.t.c
+     * Algorithm - you have cycle from i to n. and  +
+     * you have another cycle from i to n. But second cycle iterates only each second time (half of cycle)
+     */
+    public String getComplexityOfAlgorithm() {
+        return null;
+    }
+
 }

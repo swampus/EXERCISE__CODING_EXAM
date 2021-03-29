@@ -1,6 +1,6 @@
 package com.swampus.cooding.misc;
 
-public class CreditCardAuth extends Thread {
+public class CreditCardAuth extends Thread implements Cloneable{
 
     private String result = "in progress";
     private String authCode = "";
@@ -32,4 +32,12 @@ public class CreditCardAuth extends Thread {
             e.printStackTrace();
         }
     }
+
+    @Override
+    public Object clone() {
+        CreditCardAuth creditCardAuth = new CreditCardAuth();
+        creditCardAuth.setAuthCode(authCode);
+        return creditCardAuth;
+    }
 }
+

@@ -2,6 +2,7 @@ package com.swampus.cooding.task.advanced;
 
 import com.swampus.cooding.misc.Operation;
 import com.swampus.cooding.misc.SwNode;
+import com.swampus.cooding.misc.card.PlayerHand;
 
 import java.util.List;
 import java.util.Map;
@@ -38,6 +39,24 @@ public class Developer {
     public List<Operation> calculateAllAmounts(List<Map<String, Long>> data) {
         return null;
     }
+
+    /**
+     * Task3
+     * incoming Map tables - key is tableId (unique) and list of player hands on that table
+     * you need find the winner (best hand) Find best hand and return map where ID will be table ID, and PlayerHand
+     * - winning player hand on that table
+     * PayerHand have unique ID and list of cards. Card have value and color.
+     * (all next to be evaluated as 5 card poker.)
+     * https://en.wikipedia.org/wiki/Five-card_draw
+     * So table, hands (5 card poker) find winners on each table and collect to map.
+     *  Colors: first letter caps from color name
+     *  Value first letter or number from card (A, K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3 and 2)
+     */
+    public Map<String, PlayerHand> getWinnersOnTables(Map<String, List<PlayerHand>> tables){
+        return null;
+    }
+
+
 
 
 }

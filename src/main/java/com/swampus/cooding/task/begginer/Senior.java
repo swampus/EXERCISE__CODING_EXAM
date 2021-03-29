@@ -40,9 +40,9 @@ public class Senior {
     /**
      * Task3
      * You have defined field phones it is a Set with Strings that is phoneNumbers
-     * you have incomming param that are phone number, you need return true if such phone is in Set (phones)
+     * you have incoming param that are phone number, you need return true if such phone is in Set (phones)
      * and return false if not. BUT
-     * But incomming phone can have + or country code 371 or both ignore spaces
+     * But incoming phone can have + or country code 371 or both ignore spaces
      * +3712345, 37112345, 12345, 12 345 - it is a same phone, but different formats
      */
     public Boolean containsPhone(String phone) {

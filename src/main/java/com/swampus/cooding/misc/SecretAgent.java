@@ -2,6 +2,7 @@ package com.swampus.cooding.misc;
 
 public class SecretAgent {
 
+    private final String somethingFinal = "345";
     private String behaivor;
 
     public SecretAgent(String behaivor) {

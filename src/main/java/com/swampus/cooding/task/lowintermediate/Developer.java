@@ -56,7 +56,6 @@ public class Developer {
      * you have 3 incoming employees put then into new List and return
      */
     public List<Employee> putAllEmployesIntoList(Employee employee1, Employee employee2, Employee employee3) {
-
         return null;
     }
 

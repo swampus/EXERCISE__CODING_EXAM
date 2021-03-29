@@ -18,10 +18,11 @@ public class Senior {
      * personsGrossSalary parameter is provided it is a map where key is Employee - is a company employee and
      * value is amount of gross salary (before tax) you need to return map where KEY is employee personal code and
      * VALUE is amount of salary after tax. To get employee personal code  already have getter
-     * to get salaray after tax you need to use taxTable find percent by tax category (find value by key) after you found percent
+     * to get salary after tax you need to use taxTable find percent by tax category (find value by key) after you found percent
      * you need to decrease salary before tax on that percent and you will get salary after tax
      * tax category, personal code you can find inside employee (already exists method)
      * tax category percent to decrease you can find in taxTable it is value for key (tax category)
+     * you need to return map where key: employee personal code and value salary after tax (NET)
      */
     public Map<String, Double> calculateNetSalary(Map<Employee, Double> personsGrossSalary) {
         return null;
@@ -49,6 +50,7 @@ public class Senior {
         return "";
     }
 
+
     /**
      * Task3
      * you have incoming param SecretAgent it have private field sValue that is String, return that field value
@@ -69,7 +71,7 @@ public class Senior {
      * Remember about String concatenation in Cycle, what Class can we use for that ?
      */
     public String collectData(List<SecretAgent> secretAgents) {
-        return null;
+        return "";
     }
 
     /**
