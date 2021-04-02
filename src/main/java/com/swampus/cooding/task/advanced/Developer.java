@@ -6,9 +6,6 @@ import com.swampus.cooding.misc.card.PlayerHand;
 
 import java.util.List;
 import java.util.Map;
-/**
- * Not tested!!
- */
 
 public class Developer {
 
@@ -26,6 +23,7 @@ public class Developer {
         return null;
     }
 
+
     /**
      * Task2
      * /!\ Use StreamApi
@@ -38,10 +36,12 @@ public class Developer {
      * 2. Operation(id="id-2", value=15}
      * 2. Operation(id="id-3", value=10}
      * create object operation for each unique ID inside map, summing all values from all maps with same ID and put into field amount
+     * result list should be ordered by Operation.id ASC (ascending) 1,2,3,4 e.t.c
      */
     public List<Operation> calculateAllAmounts(List<Map<String, Long>> data) {
         return null;
     }
+
 
     /**
      * Task3
@@ -52,14 +52,35 @@ public class Developer {
      * (all next to be evaluated as 5 card poker.)
      * https://en.wikipedia.org/wiki/Five-card_draw
      * So table, hands (5 card poker) find winners on each table and collect to map.
-     *  Colors: first letter caps from color name
-     *  Value first letter or number from card (A, K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3 and 2)
+     * Colors: first letter caps from color name
+     * Value first letter or number from card (A, K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3 and 2)
      */
-    public Map<String, PlayerHand> getWinnersOnTables(Map<String, List<PlayerHand>> tables){
+    public Map<String, PlayerHand> getWinnersOnTables(Map<String, List<PlayerHand>> tables) {
         return null;
     }
 
 
+    /**
+     * Task4
+     * /!\ Create new class in com.swampus.cooding.misc.builder
+     * Create builder pattern for Object com.swampus.cooding.misc.builder.User
+     * that task body should remain empty create new class in com.swampus.cooding.misc.builder.
+     */
+    public void builderPattern() {
+
+
+    }
+
+    /**
+     * Task5
+     * /!\ Create new class in com.swampus.cooding.misc.observer
+     * Create Observer pattern for Object com.swampus.cooding.misc.observer Channel
+     * that task body should remain empty modify and create new class in com.swampus.cooding.misc.observer.
+     * Observer sends to all subscribers String "SOME NEWS"
+     */
+    public void observerPattern() {
+
+    }
 
 
 }

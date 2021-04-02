@@ -21,7 +21,7 @@ public class Junior {
     }
 
     /**
-     * Task2
+     * Task1
      * Create empty instance of Class DataQHolder and return
      */
     public DataQHolder createInstance() {

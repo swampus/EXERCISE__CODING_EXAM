@@ -6,9 +6,6 @@ import com.swampus.cooding.misc.chess.Figure;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Not tested!!
- */
 public class Junior {
 
     /**
